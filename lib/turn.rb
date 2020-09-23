@@ -17,8 +17,8 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board, index)
-  if board(index = 0-8)
-    return true
+  if index = [0 - 8]
+    true
 end
 
 def position_taken?

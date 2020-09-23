@@ -30,6 +30,6 @@ def position_taken?(board, index)
   board[index] != " "
 end
 
-def move(board, index, character = "X")
-  board[index]
+def move(board, index, token = "X")
+  board[index] = token
 end
